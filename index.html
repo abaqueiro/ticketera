@@ -83,18 +83,19 @@ div.brand-name {
 	font-weight: bold;
 }
 div.section {
-	margin-top: 20px;
-	border: 2px solid red;
+	margin-top: 30px;
 	background-color: #13182c;
 	color: white;
-	padding: 0.5em 2em;
+	padding: 2em 2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
 }
-/*
 h1 {
+	font-size: 26pt;
 }
 p {
+	max-width: 40em;
 }
-*/
 .brand-name-effect-shadow {
 	color: transparent;
 	background-clip: text;
@@ -108,6 +109,17 @@ p {
 }
 .factor b {
 	color: black;
+}
+.founder {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 1em;
+}
+.founder img {
+	height: 240px;
+}
+.founder-info {
+	display: inline-block;
 }
 </style>
 </head>
@@ -124,7 +136,7 @@ p {
 			Simple, efectivo, y confiable
 		</div>
 	</header>
-	<div class="section">
+	<div class="section" style="background-image: url('img/bg-2.png'); background-repeat: no-repeat; background-position: right;">
 		<h1>¿ Quienes somos ?</h1>
 		<p>
 		Ticketera es una empresa innovadora que se dedica a proveer servicios de venta de boletos digitales de manera tecnológica.
@@ -141,7 +153,7 @@ p {
 		a promociones y descuentos exclusivos que la empresa ofrece a sus clientes.
 		</p>
 	</div>
-	<div class="section">
+	<div class="section" style="background-image: url('img/bg-2.png'); background-repeat: no-repeat; background-position: right;">
 		<h1>Resumen</h1>
 		<p>
 		En resumen, somos la mejor empresa digital de boletos porque ofrecemos un servicio fácil de usar, seguro y confiable.
@@ -150,7 +162,7 @@ p {
 		 experiencia de comprar boletos digitales con nosotros!
 		</p>
 	</div>
-	<div class="section">
+	<div class="section"style="background-image: url('img/bg-2.png'); background-size: auto 100%; background-repeat: no-repeat; background-position: top right;">
 		<h1>El Problema</h1>
 		<p>
 		México ha visto recientemente  eventos de alta demanda volverse  escándalos por falta de
@@ -158,11 +170,13 @@ p {
 		</p>
 		<p>
 		México, a falta de <span class="brand-name-effect-shadow">INNovAcIÓN</span>
-		, a sido  víctima de un mercado que se ha quedado estancado en un mundo que se dirige más al ecommerce.
+		, ha sido  víctima de un mercado que se ha quedado estancado en un mundo que se dirige más al e-commerce.
 		</p>
-		<img class="news-sample" src="img/noticia-1.png">
-		<img class="news-sample" src="img/noticia-2.png">
-		<img class="news-sample" src="img/noticia-3.png">
+		<div style="text-align: center;">
+			<img class="news-sample" src="img/noticia-1.png" style="display: inline-block; width: 400px;">
+			<img class="news-sample" src="img/noticia-2.png" style="display: inline-block; width: 400px;">
+			<img class="news-sample" src="img/noticia-3.png" style="display: inline-block; width: 400px;">
+		</div>
 	</div>
 	<div class="section">
 		<h1>¿ CÓMo FuNcIoNA TIckETERA ?</h1>
@@ -175,9 +189,11 @@ p {
 			<li>Recibes código QR a través de WhatsApp Bot</li>
 			<li>Imposible de Revender o Falsificar</li>
 		</ul>
-		<img class="mobile-screen" src="img/mobile-screen-1.png">
-		<img class="mobile-screen" src="img/mobile-screen-2.png">
-		<img class="mobile-screen" src="img/mobile-screen-3.png">
+		<div style="text-align: center;">
+			<img class="mobile-screen" src="img/mobile-screen-1.png" style="display: inline-block; width: 400px;">
+			<img class="mobile-screen" src="img/mobile-screen-2.png" style="display: inline-block; width: 400px;">
+			<img class="mobile-screen" src="img/mobile-screen-3.png" style="display: inline-block; width: 400px;">
+		</div>
 	</div>
 	<div class="section">
 		<h1>¿ CÓMo MONETIZAMOS ?</h1>
@@ -233,20 +249,82 @@ p {
 			</div>
 		</div>
 	</div>
-
+	<div class="section" style="background-image: url('img/bg-b2b.png'); background-size: 100% auto; background-repeat: no-repeat; background-position: center center;">
+		<h1>Business to Business (B2B)</h1>
+		<p>
+		Clientes podrán decidir precios, tiempo de venta, diferencias de zona.
+		</p>
+		<p>
+		Podrán definir que tipo de diseño para su sitio de ventas quiren usar para promocionar su evento.
+		</p>
+		<div style="text-align: center;">
+			<img class="mobile-screen" src="img/mobile-screen-4.png" style="display: inline-block; width: 400px;">
+		</div>
+	</div>
+	<div class="section">
+		<h1>Equipo</h1>
+		<div style="text-align: center;">
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-1.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Santiago Rivera Soriano</div>
+				<div class="founder-phone">+52 55 4135 8246</div>
+				<div class="founder-email">Santiago.Riverasor@gmail.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-2.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Daniel Fragoso Reyes</div>
+				<div class="founder-phone">+52 595 114 8484</div>
+				<div class="founder-email">it@bearbonesservices.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-3.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Nicolas Careaga Letayf</div>
+				<div class="founder-phone">+52 686 524 3931</div>
+				<div class="founder-email">nicorareagal@gmail.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-4.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Pablo Rivera Albarran</div>
+				<div class="founder-phone">+52 55 1798 9381</div>
+				<div class="founder-email">pr@ejerh.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-5.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Juan Pablo Rivera Soriano</div>
+				<div class="founder-phone">+52 55 4343 0729</div>
+				<div class="founder-email">juanpabloriveras1999@gmail.com</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="section" style="position: relative; padding: 0px;">
+		<img src="img/manchas-fin.png" style="width: 100%;">
+		<div style="position: absolute; top: 30%; text-align: center;">
+			<div>TICKETERA</div>
+			<div>soMos EL FuTuRo</div>
+			<div>soMos TIckETERA</div>
+		</div>
+	</div>
 	<footer>
 	</footer>
 </body>
 </html>
-
-<!--
-12,309 Eventos al año en CDMX (2022).
-
-
-1%-123 Eventos
-100/12 =10.2 al mes
-5%-615.45 eventos
-500/12 =51.3 al mes
-
-
--->
