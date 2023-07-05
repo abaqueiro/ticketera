@@ -4,10 +4,19 @@
 <meta charset="utf-8">
 <title>Ticketera</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+.xx {
+	border: 1px solid red;
+}
+.yy {
+	border: 1px solid yellow;
+}
 /*
 	border: 2px solid red;
 */
 * {
+	font-family: Quicksand, sans-serif;
 	box-sizing: border-box;
 }
 body {
@@ -44,8 +53,6 @@ header img.salt-2 {
 header div.slogan-1 {
 	position: relative;
 	display: inline-block;
-	border: 2px solid white;
-	border-radius: 6px;
 	margin-top: 30px;
 	margin-left: 40px;
 	padding: 20px;
@@ -83,6 +90,7 @@ div.brand-name {
 	margin-top: 10px;
 	margin-left: 40px;
 	font-weight: bold;
+	font-size: 18pt;
 }
 div.section {
 	margin-top: 30px;
@@ -90,12 +98,15 @@ div.section {
 	color: white;
 	padding: 2em 2em;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18pt;
+	font-size: 16pt;
 }
 h1 {
-	font-size: 26pt;
+	font-size: 32pt;
+	color: rgb(125,23,250);
+	font-family: Quicksand, sans-serif;
 }
 p {
+	font-size: 16pt;
 	max-width: 40em;
 }
 .brand-name-effect-shadow {
@@ -124,28 +135,235 @@ p {
 .founder-info {
 	display: inline-block;
 }
+.ib {
+	display: inline-block;
+}
+.c {
+	text-align: center;
+}
+.vat {
+	vertical-align: top;
+}
+.vac {
+	vertical-align: center;
+}
 </style>
 </head>
 <body>
-	<div class="section" style="margin-top: 0px;">
-		<img src="img/page-1.jpg" style="width: 100%">
+	<header>
+		<img class="logo" src="css/logo.png" alt="Ticketera logo">
+		<div class="brand-name">BeTicket</div>
+		<img class="salt-1" src="css/salt-1.png">
+		<img class="salt-2" src="css/salt-2.png">
+		<div class="slogan-1">
+			¿Quienes somos?
+			<br>
+			<br>Bienvenido al
+			<br>futuro <div class="brand-name-effect"><div class="brand-name-effect-shadow">BeTicket</div>BeTicket</div>
+		</div>
+		<div class="slogan-2">
+			Simple, efectivo, confiable
+		</div>
+	</header>
+	<div class="section" style="text-align: center;">
+		<div style="text-align: center; width: 80%; margin: auto;">
+		BeTicket es una empresa innovadora que se dedica a proveer servicios de venta de boletos digitales.
+		Con nosotros, ya no tendrás que preocuparte por tener que imprimir tus boletos, que te falsifiquen
+		o perderlos. BeTicket te los envía directamente a través de WhatsApp por medio de un código QR.
+		</div>
+		<div class="c" style="margin-top: 48px;">
+			<img src="img/app-screen.jpg" style="width: 100%; max-width: 800px;">
+		</div>
 	</div>
-
+	<div class="section" style="text-align: center;">
+		<div style="display: inline-block; vertical-align: top; text-align: left;">
+			<h1><b>Como funciona<br>
+			BeTicket</b></h1>
+			Logra vender boletos, y al mismo tiempo poder ofrecer un servicio:
+			<br>SIMPLE, RÁPIDO Y EFECTIVO
+			<ul>
+			<li>Crea tu cuenta con tu número telefónico</li>
+			<li>Compra tus boletos en app/website</li>
+			<li>Recibe tu código QR a través de nuestro WhatsApp Bot</li>
+			<li>Imposible falsificar o clonar</li>
+			</ul>
+		</div>
+		<div style="display: inline-block;">
+			<img class="mobile-screen" src="img/mobile-screen-1.png" style="margin-bottom: 2cm; display: inline-block; width: 200px;">
+			<img class="mobile-screen" src="img/mobile-screen-2.png" style="margin-top: 2cm; display: inline-block; width: 200px;">
+		</div>
+	</div>
 	<div class="section">
-		<img src="img/page-2.jpg" style="width: 100%">
+		<div style="text-align: center;">
+			<img class="mobile-screen" src="img/mobile-screen-3.png" style="display: inline-block; width: 400px;">
+		</div>
 	</div>
-	
 	<div class="section">
-		<img src="img/page-3.jpg" style="width: 100%">
+		<h1>Contacto</h1>
+		<div class="c">
+			<div class="ib vac">
+				<img style="width: 100px" src="css/logo.png" alt="Ticketera logo">
+				<br>BeTicket
+			</div>
+			<div class="ib" style="margin-left: 120px;">
+				Telefonos:
+				<br>55 4135 8246
+				<br>55 4343 0729
+				<br>
+				<br>
+				Email:
+				<br><a style="color: rgb(125,23,250);" href="mailto:ticketera.13@gmail.comT">ticketera.13@gmail.com</a>
+			</div>
+		</div>
 	</div>
-	
-	<div class="section">
-		<img src="img/page-4.jpg" style="width: 100%">
-	</div>
-	
-	<div class="section">
-		<img src="img/page-5.jpg" style="width: 100%">
-	</div>
-	
+	<footer>
+	</footer>
 </body>
 </html>
+<!--
+	<div class="section"style="background-image: url('img/bg-2.png'); background-size: auto 100%; background-repeat: no-repeat; background-position: top right;">
+		<h1>El Problema</h1>
+		<p>
+		México ha visto recientemente  eventos de alta demanda volverse  escándalos por falta de
+		<span class="brand-name-effect-shadow">SEGURIDAD</span> en las boleteras.
+		</p>
+		<p>
+		México, a falta de <span class="brand-name-effect-shadow">INNovAcIÓN</span>
+		, ha sido  víctima de un mercado que se ha quedado estancado en un mundo que se dirige más al e-commerce.
+		</p>
+		<div style="text-align: center;">
+			<img class="news-sample" src="img/noticia-1.png" style="display: inline-block; width: 200px;">
+			<img class="news-sample" src="img/noticia-2.png" style="display: inline-block; width: 200px;">
+			<img class="news-sample" src="img/noticia-3.png" style="display: inline-block; width: 400px;">
+		</div>
+	</div>
+	<div class="section">
+		<h1>¿ CÓMo MONETIZAMOS ?</h1>
+		<ul>
+			<li>12,309 Eventos al año en CDMX (2022).</li>
+			<li>22,912,450.8 Boletos comprados al año (CDMX).</li>
+			<li>De las más grandes industrias de entretenimiento.</li>
+			<li>Imposible de Revender o Falsificar</li>
+		</ul>
+		<p>
+			1% son 123 eventos<br>
+			123 / 12 = 10.2 eventos por mes
+		</p>
+		<p>
+			5% son 615.45 eventos<br>
+			615.45 / 12 = 51.3 eventos por mes
+		</p>
+		<img class="project-phases" src="img/fases.png" style="width: 90%;">
+	</div>
+	<div class="section">
+		<h1>¿ NADIE COMO TIcKETERA ?</h1>
+		<img class="project-vs-graph" src="img/vs-graph.png" style="width:100%;">
+	</div>
+	<div class="section" style="height:1200px;">
+		<h1>FAcToR TIcKETERA ?</h1>
+		<div style="position: relative; text-align:center;">
+			<img src="img/4-manchas.png" style="width:80%;">
+			<div class="factor" style="position: absolute; left: 25%; top: 25%;">
+				Sistema de puntaje<br>
+				<b>NUNCA</b> antes<br>
+				visto en la industria<br>
+				de boletaje
+			</div>
+			<div class="factor" style="position: absolute; left: 55%; top: 22%;">
+				Por cada boleto<br>
+				o servicio adquirido en<br>
+				nuestra plataforma, se otorgan<br>
+				<b>PUNTOS</b> que procederán a<br>
+				<b>PREMIOS</b>
+			</div>
+			<div class="factor" style="position: absolute; left: 25%; top: 67.5%;">
+				Esto nos separa de la<br>
+				competencia, y así<br>
+				crear beneficios para el<br>
+				cliente que no podrán<br>
+				ser ignorados
+			</div>
+			<div class="factor" style="position: absolute; left: 58%; top: 56%;">
+				Los premios incluiran<br>
+				<b>BOLETOS</b> o <b>SERVICIOS</b><br>
+				<b>ALL INCLUSIVE</b><br>
+				(pagados por Ticketera)
+			</div>
+		</div>
+	</div>
+	<div class="section" style="background-image: url('img/bg-b2b.png'); background-size: 100% auto; background-repeat: no-repeat; background-position: center center;">
+		<h1>Business to Business (B2B)</h1>
+		<p>
+		Clientes podrán decidir precios, tiempo de venta, diferencias de zona.
+		</p>
+		<p>
+		Podrán definir que tipo de diseño para su sitio de ventas quiren usar para promocionar su evento.
+		</p>
+		<div style="text-align: center;">
+			<img class="mobile-screen" src="img/mobile-screen-4.png" style="display: inline-block; width: 400px;">
+		</div>
+	</div>
+	<div class="section">
+		<h1>Equipo</h1>
+		<div style="text-align: center;">
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-1.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Santiago Rivera Soriano</div>
+				<div class="founder-phone">+52 55 4135 8246</div>
+				<div class="founder-email">Santiago.Riverasor@gmail.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-2.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Daniel Fragoso Reyes</div>
+				<div class="founder-phone">+52 595 114 8484</div>
+				<div class="founder-email">it@bearbonesservices.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-3.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Nicolas Careaga Letayf</div>
+				<div class="founder-phone">+52 686 524 3931</div>
+				<div class="founder-email">nicorareagal@gmail.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-4.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Pablo Rivera Albarran</div>
+				<div class="founder-phone">+52 55 1798 9381</div>
+				<div class="founder-email">pr@ejerh.com</div>
+			</div>
+		</div>
+		<div class="founder">
+			<div class="founder-picture">
+				<img src="img/founder-5.jpg">
+			</div>
+			<div class="founder-info">
+				<div class="founder-name">Juan Pablo Rivera Soriano</div>
+				<div class="founder-phone">+52 55 4343 0729</div>
+				<div class="founder-email">juanpabloriveras1999@gmail.com</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="section" style="position: relative; padding: 0px;">
+		<img src="img/manchas-fin.png" style="width: 100%;">
+		<div style="position: absolute; top: 30%; text-align: center;">
+			<div>TICKETERA</div>
+			<div>soMos EL FuTuRo</div>
+			<div>soMos TIckETERA</div>
+		</div>
+	</div>
+-->
